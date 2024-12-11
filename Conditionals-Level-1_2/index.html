@@ -5,9 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <script src="./assets/js/main.js" defer></script>
-    <title>Document</title>
+    <title>Conditionals Level 1_2</title>
   </head>
   <body>
+    <section>
+      <h1>Wetter Qualität</h1>
+      <h4>Setze Zahlen zwischen 1 bis 10 ein.</h4>
+      <form onsubmit="weather(); return false">
+        <input type="number" name="score" id="number" min="0" max="10" />
+        <input type="submit" />
+      </form>
+      <p class="weather-score"></p>
+    </section>
     <!-- <script src="./assets/js/main.js"></script> -->
   </body>
 </html>
